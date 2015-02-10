@@ -1,0 +1,28 @@
+Smoked it on 9 Feb. ...
+
+
+from other meter instructions:
+
+COM : GREEN (Black) wire,Power Supply - , Measure Voltage -
+PW+ : BLUE (Red) wire, Power Supply +, Measure Voltage +
+IN+, YELLOW (Yellow) wire, Measure current input.
+Note : Pls connect the YELLOW & GREEN (yellow wire and black wire) together to avoid the Interference when u use the voltmeter function only
+
+Final working for volt measurement:
+
+power supply to device 
+red: +12v (min 4.5)
+black: 0v (gnd)
+
+Measurement connections
+
+Voltmeter only:
+Green: -V (shunt*A) GROUND
+Yellow: -V (shunt*B)  load-
+Blue: +V  load+
+
+i.e. load current runs:
+* from blue (V+),
+* to load, 
+* to yellow, 
+* to shunt, to green which is Ground!
